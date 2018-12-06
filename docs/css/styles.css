@@ -1,0 +1,23 @@
+#wrapper {
+    width: 960px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#grad {
+    background-image: radial-gradient(#ffe033, #ffe866, #fff099);
+}
+#logo {
+
+}
+
+
+
+
+
+
+
+
+
+.font {
+    font-family: Hevetica, SansSerif, serif;
+}

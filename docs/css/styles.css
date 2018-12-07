@@ -41,6 +41,30 @@
     margin-top: -300px;
 }
 
+#indexHeading {
+    position: relative;
+    font-size: 40px;
+    margin-left: 560px;
+    width: 260px;
+    padding-top: 160px;
+    font-weight: bold;
+}
+#indexText {
+    position: relative;
+    margin-top: -10px;
+    width: 460px;
+    margin-left: 480px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#footer {
+    text-align: center;
+    height: 50px;
+    margin-left: 720px;
+    margin-right: 704px;
+    padding-top: 460px;
+}
 .font {
     font-family: Hevetica, SansSerif, serif;
 }
@@ -76,6 +100,11 @@
 }
 .position {
     position: fixed;
+}
+.indexImage {
+    margin-right: 520px;
+    margin-top: -200px;
+    border-radius: 20%;
 }
 
 

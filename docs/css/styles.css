@@ -26,12 +26,10 @@
 
 #mainContent {
     margin-top: 140px;
-    background-image: url("/docs/images/Wanna Do Artwork.png");
     padding-top: 340px;
 }
 
 #leftContent {
-    background-image: image("/docs/images/King Of Passaic.PNG");
     margin-right: 980px;
     margin-top: 40px;
 }
@@ -41,21 +39,15 @@
     margin-top: -300px;
 }
 
-#indexHeading {
+#heading {
     position: relative;
     font-size: 40px;
-    margin-left: 560px;
-    width: 260px;
-    padding-top: 160px;
     font-weight: bold;
 }
+
 #indexText {
     position: relative;
-    margin-top: -10px;
-    width: 460px;
-    margin-left: 480px;
-    font-size: 20px;
-    font-weight: bolder;
+    text-align: center;
 }
 
 #footer {
@@ -72,7 +64,9 @@
 .center {
     margin: auto;
 }
-
+.centerText {
+    text-align: center;
+}
 .rightAlignText {
     text-align: right;
 }
@@ -80,11 +74,6 @@
 .clear {
     clear: both;
 }
-
-.rightMargin {
-    margin-right: 31px;
-}
-
 .floatLeft {
     float: left;
 }
@@ -106,8 +95,36 @@
     margin-top: -200px;
     border-radius: 20%;
 }
-
-
+.indexHeading {
+    margin-left: 560px;
+    width: 260px;
+    padding-top: 160px;
+}
+.aboutHeading {
+    margin-left: 320px;
+    margin-top: -360px;
+}
+a {
+    text-decoration: none;
+    text-decoration-color: white;
+}
+a:hover {
+    text-decoration: underline;
+}
+.contentTextSize {
+    font-size: 20px;
+    font-weight: lighter;
+}
+.indexText {
+    margin-top: -10px;
+    width: 460px;
+    margin-left: 480px;
+}
+.aboutText {
+    margin-top: -10px;
+    width: 660px;
+    padding-left: 120px;
+}
 
 
 

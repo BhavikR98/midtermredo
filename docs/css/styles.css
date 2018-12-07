@@ -1,23 +1,95 @@
 #wrapper {
     width: 960px;
+    height: 960px;
     margin-left: 100px;
     margin-right: 100px;
+    display: inline;
 }
+
 #grad {
-    background-image: radial-gradient(#ffe033, #ffe866, #fff099);
+    background-image: radial-gradient(circle, #ffe033, #ffe866, #fff099);
 }
+
 #logo {
-
+    height: 100px;
+    width: 100px;
+    padding-top: 30px;
+    margin-left: 480px;
+    padding-left: 20px;
 }
 
+#menu {
+    font-size: 18px;
+    margin-left: 580px;
+    padding-top: 60px;
+}
 
+#mainContent {
+    margin-top: 140px;
+    background-image: url("/docs/images/Wanna Do Artwork.png");
+    padding-top: 340px;
+}
 
+#leftContent {
+    background-image: image("/docs/images/King Of Passaic.PNG");
+    margin-right: 980px;
+    margin-top: 40px;
+}
 
-
-
-
-
+#rightContent {
+    margin-left: 980px;
+    margin-top: -300px;
+}
 
 .font {
     font-family: Hevetica, SansSerif, serif;
 }
+
+.center {
+    margin: auto;
+}
+
+.rightAlignText {
+    text-align: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.rightMargin {
+    margin-right: 31px;
+}
+
+.floatLeft {
+    float: left;
+}
+.contentMargin {
+    margin-left: 480px;
+    margin-right: 480px;
+}
+.contentBorder {
+    border: 1px solid black;
+}
+.contentPadding {
+    padding-top: 300px;
+}
+.position {
+    position: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

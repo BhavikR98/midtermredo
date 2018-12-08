@@ -57,6 +57,12 @@
     margin-right: 704px;
     padding-top: 460px;
 }
+#browseMusic {
+    font-size: 20px;
+    padding-left: 620px;
+    padding-top: 20px;
+    font-weight: bolder;
+}
 .font {
     font-family: Hevetica, SansSerif, serif;
 }
@@ -92,7 +98,7 @@
 }
 .indexImage {
     margin-right: 520px;
-    margin-top: -200px;
+    margin-top: -280px;
     border-radius: 20%;
 }
 .indexHeading {
@@ -146,9 +152,10 @@ a:hover {
 }
 .locationPic {
     padding-left: 10px;
-
 }
-
+.aboutFooter {
+    height: 50px;
+}
 
 
 
